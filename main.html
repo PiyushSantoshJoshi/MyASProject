@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble Hospital</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Noble Hospital</h1>
+        <nav>
+            <ul>
+                <li><img src="logo2.jpg" style="height: 60px;width: 60px;"> </img></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2 style="font-weight: bold; text-align: center;">Welcome to Noble Hospital</h2><br><br><br>
+            <div class="contain">
+                <form id="uploadForm" enctype="multipart/form-data" action="/" method="POST">
+                    <label for="username">Enter name:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="text2Input">Your Email:</label><br>
+                    <input type="email" id="text2Input" name="text2Input" required><br><br>
+                    <label for="dateInput">Date (YYYY-MM-DD):</label><br>
+                    <input type="text" id="dateInput" name="dateInput" required><br><br>
+                    <label for="timeInput">Time (HH:MM:SS):</label><br>
+                    <input type="text" id="timeInput" name="timeInput" required><br><br>
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password" required><br><br>
+                    <input type="file" id="fileInput" name="fileInput" required><br><br>
+                    
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
